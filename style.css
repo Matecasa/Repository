@@ -1,4 +1,21 @@
+
+
+
 body{background-color: yellow;}
 
-h1{color: aquamarine;front: size 100px;}
 
+
+#Titular{color: blueviolet;front: size 100px;}
+
+.elemento{
+    color: rgb(255, 0, 98);
+}
+
+.margenes{
+    margin-top: 10px;
+}
+
+*{
+    border: 1px solid red;
+}
+#Menu{display: inline;}
