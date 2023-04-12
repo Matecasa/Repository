@@ -17,6 +17,7 @@
     </ul>
     </header>
   <main>
+ 
     <h2>Street</h2> <!--esto es para ecribir comentarios que no se ven-->
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam laudantium laboriosam quam, dolorum fugiat distinctio ad dignissimos, eos obcaecati commodi sequi. Blanditiis minima quo ex laudantium eum, laboriosam atque in?</p><!--Pongo p para escribir parrafos-->
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quae dicta adipisci neque soluta asperiores laudantium odit molestiae perspiciatis, commodi beatae magnam iusto accusantium consequuntur illum a voluptatibus inventore cumque!
@@ -76,6 +77,44 @@
     </li></ul>
     <h1>Casado</h1>
     
+    <title>Imágenes deslizantes</title>
+    <style>
+      .container {
+        width: 600px;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+      
+      .slider {
+        width: 1200px;
+        animation: slide 5s linear infinite;
+      }
+      
+      .slider img {
+        float: left;
+        width: 600px;
+        height: 400px;
+      }
+      
+      @keyframes slide {
+        0% {
+          transform: translateX(0);
+        }
+        
+        100% {
+          transform: translateX(-600px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="slider">
+        <img src=https://www.bowen.com.ar/media/catalog/product/cache/8fad0afdfe30a1c47c957139f2c4bac2/c/a/casual_v_t-shirt_tb55108_wh_2.webp alt="Imagen 1">
+        <img src=https://www.bowen.com.ar/media/catalog/product/cache/8fad0afdfe30a1c47c957139f2c4bac2/c/a/casual_v_t-shirt_tb55108_wh_1.webpalt="Imagen 2">
+      </div>
+    </div>
+  </body>
 
 
 
