@@ -50,6 +50,7 @@ footer {
     background-color: #333;
     color: #fff;
     font-family: Arial,
+    
 
 
   
@@ -57,7 +58,8 @@ footer {
     display: flex;
     max-width: 800px;
     margin: 0 auto; 
-  }
+    
+  
   
   .footer-column {
     width: 30%;
@@ -66,10 +68,12 @@ footer {
   .footer-column h3 {
     font-size: 20px;
     margin-bottom: 20px;
+    text-align:left;
   }
   
   p{
-    font-size: 40px;
+    font-size: 30px;
+    text-align: center;
     
 }
   
@@ -77,6 +81,6 @@ footer {
     line-height: 2;
   }
 
-
+}
   
   
