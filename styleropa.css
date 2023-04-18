@@ -18,7 +18,9 @@ ul{
     
 }
 
-
+p{
+  font-size: small;
+}
 a{
   color: white;
   text-decoration: none;
@@ -48,14 +50,13 @@ footer {
     background-color: #333;
     color: #fff;
     font-family: Arial,
-    
+
 
   
-  .footer-container {
+  footer-container{
     display: flex;
     max-width: 800px;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
   }
   
   .footer-column {
@@ -76,6 +77,6 @@ footer {
     line-height: 2;
   }
 
-}
+
   
   

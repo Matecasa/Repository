@@ -2,11 +2,41 @@ li{
     display: inline;
 }
 
+h1{
+  text-align: center;
+  
+}
 ul{
     text-align: left;
     color: black;
     font-size: 20px;
+
 }
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  align-items: center; 
+}
+.item {
+  background-color: #ddd;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  flex-basis: 200px; 
+  flex-grow: 1; 
+  flex-shrink: 1;
+  flex-basis: 0; 
+}
+.slick-prev:before,
+  .slick-next:before {
+    color: black;
+    }
+  .slick-dots li button:before {
+    color: black;
+      }
 
 .container {
     display: flex;
