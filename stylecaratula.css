@@ -1,6 +1,4 @@
-html{
-    scroll-behavior: smooth;
-} 
+
  * {
     margin: 0;
     padding: 0;
@@ -214,13 +212,6 @@ footer{
     padding: 1.5em;
 }
 
-.formulario-contacto{
-     box-shadow: 0 0 20px 0 rgba(255,255,255, .3);
-}
-
-.formulario-contacto > *{
-    padding: 1em;
-}
 
 .contact-form{
     background:#514e4bd2 ;
@@ -261,15 +252,6 @@ footer{
 
 }
 
-.contact-form form button:hover,
-.contact-form form button:focus{
-    background: #000000;
-    color: #fff;
-    transition: background-color 1s ease-out;
-    outline: 0;
-}
-
-
 
 .contact-info{
     background: rgba(0, 0, 0, 0.7);
@@ -287,61 +269,9 @@ footer{
     padding: 0;
 }
 
-.contact-info ul li{
-    padding: .3 em;
-}
 
 .titulo-final{
     text-align: center;
 }
 
-@media screen and (max-width:500px){
-    nav{
-        text-align: center;
-        padding: 30px 0 0 0;
-    }
-
-    nav > a{
-        margin-right: 5px;
-    }
-
-    .textos-header h1{
-        font-size: 35px;
-    }
-
-    .textos-header h2{
-        font-size: 20px;
-    }
-
-    /* ABOUT US */
-
-    .imagen-about-us{
-        margin-bottom: 60px;
-        width: 99%;
-    }
-
-    .sobre-nosotros .contenido-textos{
-        width: 95%;
-    }
-
-    /* Galeria */
-
-    .imagen-port{
-        width: 95%;
-    }
-
-    /* Clients */
-
-    .cards .card{
-        height: 450px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .cards .card img{
-        width: 90px;
-        height: 90px;
-    }
-}
 
