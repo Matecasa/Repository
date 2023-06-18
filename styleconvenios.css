@@ -57,8 +57,7 @@ nav a{
     text-decoration: none;
     margin-right: 10px;
     position: relative;
-    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
-    /* align-items: right; */
+    
 }
 
 nav a::after {
@@ -68,9 +67,7 @@ nav a::after {
     background: #FAFAFA;
     height: 4px;
     bottom: 0;
-    /* position: absolute; */
     transition: width 0.2s;
-    /* margin-bottom: 20px; */
   }
 
 nav a:hover::after {
@@ -234,15 +231,15 @@ nav a:hover::after {
 }
 
 boton-sitio-web {
-    background-color: #4CAF50; /* Color de fondo */
-    border: none; /* Sin borde */
-    color: white; /* Color de texto */
-    padding: 15px 32px; /* Espacio alrededor del texto */
-    text-align: center; /* Alineación del texto */
-    text-decoration: none; /* Sin subrayado */
-    display: inline-block; /* Mostrar como bloque en línea */
-    font-size: 16px; /* Tamaño de fuente */
-    margin: 4px 2px; /* Márgenes superior e inferior */
-    cursor: pointer; /* Cambiar el cursor al pasar el mouse */
+    background-color: #4CAF50; 
+    border: none; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
 }
 
