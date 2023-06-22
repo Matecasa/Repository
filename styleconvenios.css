@@ -48,6 +48,8 @@ nav {
     z-index: 20;
     background-color:  hsla(0, 0%, 0%, 0.75);
     color: #FAFAFA;
+   
+    
 }
 
 nav a{
@@ -57,6 +59,7 @@ nav a{
     text-decoration: none;
     margin-right: 10px;
     position: relative;
+
     
 }
 
