@@ -188,8 +188,8 @@ main .sobre-nosotros{
 
 footer{
     box-sizing: border-box;
-    background: #64625c;
-    color: #fff;
+    background: #e8e8e8;
+    color: #ffffff;
     line-height: 1.6;
     padding: 0 1.5em;
     margin: auto;
@@ -205,7 +205,7 @@ footer{
 
 
 .contact-form{
-    background:#514e4bd2 ;
+    background:#000000d2 ;
 }
 
 .contact-form form{
@@ -231,11 +231,11 @@ footer{
     background: none;
     outline: 0;
     color:#fff;
-    border-bottom: 1px solid #d63031;
+    border-bottom: 1px solid #4933d464;
 }
 
 .contact-form form button{
-    background: #d63031;
+    background: #5130d6;
     border: 0;
     color:black;
     text-transform: uppercase;
@@ -263,6 +263,7 @@ footer{
 
 .titulo-final{
     text-align: center;
+    color: #000000;
 }
 
 
